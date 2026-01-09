@@ -2,23 +2,157 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<style>
+.rounded float-start
+{
+  width: 50px;
+  height: 50px;
+}
+.rounded float-end
+{
+  width: 50px;
+  height: 50px;
+}
+</style>
 </head>
 <body>
-    <h1>kajal jangid</h1>
-    <h2>kajal jangid</h2>
-    <h3>kajal jangid</h3>
-    <h4>kajal jangid</h4>
-    <h5>kajal jangid</h5>
-    <h6>kajal jangid</h6>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet molestiae unde magnam incidunt vero labore necessitatibus tenetur earum alias odio temporibus voluptas, inventore saepe expedita quas, dolor tempore minima, blanditiis est quasi dolorum veritatis delectus. Vitae accusamus eius similique fugit incidunt exercitationem sint ex sed numquam nesciunt temporibus, molestiae asperiores.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ea eos quaerat cum reprehenderit commodi illum sequi, dignissimos temporibus ad? Hic adipisci, obcaecati quasi in officiis unde itaque culpa fugit?
     
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+  </div>
+</nav>
 
+
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Navbar</span>
+  </div>
+</nav>
+
+<img src="tianshu-liu-aqZ3UAjs_M4-unsplash.jpg" class="rounded float-start" alt="hello" width="300" height="200">
+<img src="butterfly.jpeg" class="rounded float-end" alt="butterfly" width="300" height="200">
+
+
+<br>
+<br>
+<div class="mb-3">
+  <label for="formFile" class="form-label">Default file input example</label>
+  <input class="form-control" type="file" id="formFile">
+</div>
+<div class="mb-3">
+  <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+  <input class="form-control" type="file" id="formFileMultiple" multiple>
+</div>
+<div class="mb-3">
+  <label for="formFileDisabled" class="form-label">Disabled file input example</label>
+  <input class="form-control" type="file" id="formFileDisabled" disabled>
+</div>
+<div class="mb-3">
+  <label for="formFileSm" class="form-label">Small file input example</label>
+  <input class="form-control form-control-sm" id="formFileSm" type="file">
+</div>
+<div>
+  <label for="formFileLg" class="form-label">Large file input example</label>
+  <input class="form-control form-control-lg" id="formFileLg" type="file">
+</div>
+
+
+<br><br>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+<br><br>
+<ul class="nav nav-tabs">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Active</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Link</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>
+
+
+
+
+
+<br><br>
+<div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">mathematics</a></li>
+    <li><a class="dropdown-item" href="#">data structure</a></li>
+    <li><a class="dropdown-item" href="#">object </a></li>
+    <div class="dropdown">
+  
+    <li><a class="dropdown-item" href="#">linux</a></li>
+    <li><a class="dropdown-item" href="#">java</a></li>
+    
+  </ul>
+</div>
+  </ul>
+</div>
+
+
+<br><br>
+<div class="text-bg-primary p-3">hello</div>
+<div class="text-bg-secondary p-3">Secondary with contrasting color</div>
+<div class="text-bg-success p-3">Success with contrasting color</div>
+<div class="text-bg-danger p-3">Danger with contrasting color</div>
+<div class="text-bg-warning p-3">Warning with contrasting color</div>
+<div class="text-bg-info p-3">Info with contrasting color</div>
+<div class="text-bg-light p-3">Light with contrasting color</div>
+<div class="text-bg-dark p-3">Dark with contrasting color</div>
+
+
+
+
+<br><br>
+<div class="card">
+  <img src="..." class="card-img-top" alt="...">
+
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" aria-hidden="true">
+  <img src="butterfly.jpeg" class="card-img-top" alt="butterfly">
+  <div class="card-body">
+    <h5 class="card-title placeholder-glow">
+      <span class="placeholder col-6"></span>
+    </h5>
+    <p class="card-text placeholder-glow">
+      <span class="placeholder col-7"></span>
+      <span class="placeholder col-4"></span>
+      <span class="placeholder col-4"></span>
+      <span class="placeholder col-6"></span>
+      <span class="placeholder col-8"></span>
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptate quibusdam voluptas, veritatis aut eum cum blanditiis distinctio neque velit!</p>
-
+    <a class="btn btn-primary disabled placeholder col-6" aria-disabled="true"></a>
+  </div>
+</div>
 </body>
 </html>
